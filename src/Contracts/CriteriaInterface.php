@@ -8,8 +8,10 @@ use Bosnadev\Repositories\Criteria\Criteria;
  */
 interface CriteriaInterface {
 
+
+
     /**
-     * @param bool $status
+     * @param bool $status govinda
      * @return $this
      */
     public function skipCriteria($status = true);
